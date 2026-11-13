@@ -26,7 +26,7 @@ public class TransportService {
             }
 
             parcels++;
-            remaining =- parcel;
+            remaining -= parcel;
         }
 
         if (express) {
